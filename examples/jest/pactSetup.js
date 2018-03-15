@@ -8,6 +8,6 @@ global.provider = new Pact({
   dir: path.resolve(process.cwd(), 'pacts'),
   spec: 2,
   pactfileWriteMode: 'update',
-  consumer: 'MyConsumer',
-  provider: 'MyProvider'
+  consumer: "MyConsumer's Client",
+  provider: "MyProvider's Provider"
 })
