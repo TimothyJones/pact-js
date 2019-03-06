@@ -55,7 +55,7 @@ describe("Pact", () => {
   } as PactOptionsComplete;
   let mockServiceStub: sinon.SinonStub;
 
-  const sandbox = sinon.sandbox.create({
+  const sandbox = sinon.createSandbox({
     injectInto: null,
     properties: ["spy", "stub", "mock"],
     useFakeTimers: false,

@@ -27,7 +27,7 @@ describe("PactWeb", () => {
     ssl: false,
   } as PactOptionsComplete;
 
-  const sandbox = sinon.sandbox.create({
+  const sandbox = sinon.createSandbox({
     injectInto: null,
     properties: ["spy", "stub", "mock"],
     useFakeServer: false,
